@@ -35,7 +35,6 @@ function Cart() {
           ))
         ) : (
           <div className="flex justify-center flex-col items-center">
-            <h2 className="text-center font-bold my-2">헬스찜목록</h2>
             <div className="border text-center px-10 py-10 flex bg-red-300 rounded-xl text-white text-xl ">
               존재 하지 않습니다
             </div>

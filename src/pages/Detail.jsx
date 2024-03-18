@@ -17,7 +17,7 @@ function Detail() {
     dispatch(checked(item));
   };
   return (
-    <div className="max-w-5xl mx-auto h-screen">
+    <div className="max-w-5xl mx-auto min-h-screen">
       <div className="w-full md:flex md:justify-between">
         <div className="w-full px-10  flex justify-center items-center mx-auto">
           <img
@@ -39,7 +39,7 @@ function Detail() {
           <button
             onClick={() => Adding(menu)}
             className="px-10
-           hover:scale-110  translate-y-5 hover:translate-y-0 transition-all duration-200  block bg-pink-300 rounded-xl text-white py-4"
+           hover:scale-110  text-center translate-y-5 hover:translate-y-0 transition-all duration-200  block bg-pink-300 rounded-xl text-white py-4"
           >
             담기
           </button>
