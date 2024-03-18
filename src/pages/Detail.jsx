@@ -20,11 +20,7 @@ function Detail() {
     <div className="max-w-5xl mx-auto min-h-screen">
       <div className="w-full md:flex md:justify-between">
         <div className="w-full px-10  flex justify-center items-center mx-auto">
-          <img
-            src={menu.image}
-            alt=""
-            className="w-[300px] h-[500px] object-cover"
-          />
+          <img src={menu.image} alt="" className="w-full object-cover" />
         </div>
         <div className="w-full m-4 px-5 flex flex-col justify-center items-center md:space-y-4 space-y-0">
           <h2 className="px-2 w-full text-center text-white bg-black rounded-xl py-3 ">
@@ -38,8 +34,8 @@ function Detail() {
           </span>
           <button
             onClick={() => Adding(menu)}
-            className="px-10
-           hover:scale-110  text-center translate-y-5 hover:translate-y-0 transition-all duration-200  block bg-pink-300 rounded-xl text-white py-4"
+            className="px-10 mb-5
+           hover:scale-110  text-center translate-y-5 hover:translate-y-0 transition-all duration-200   bg-pink-300 rounded-xl text-white py-4"
           >
             담기
           </button>
